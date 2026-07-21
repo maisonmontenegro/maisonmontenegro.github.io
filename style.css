@@ -1,1 +1,92 @@
 
+body {
+    margin: 0;
+    background: #faf7f2;
+    color: #2d2926;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+nav {
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2d2926;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.hero {
+    height: 90vh;
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.35)
+    ),
+    url("https://images.unsplash.com/photo-1533105079780-92b9be482077");
+
+    background-size: cover;
+    background-position: center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+    color:white;
+}
+
+.hero h1 {
+    font-size:70px;
+    max-width:900px;
+}
+
+.hero p {
+    font-size:22px;
+    max-width:650px;
+    margin:auto;
+}
+
+.button {
+    display:inline-block;
+    margin-top:35px;
+    padding:16px 40px;
+    background:#faf7f2;
+    color:#2d2926;
+    text-decoration:none;
+}
+
+.section {
+    padding:100px 10%;
+    text-align:center;
+}
+
+.section h2 {
+    font-size:45px;
+}
+
+.section p {
+    max-width:750px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+> On Jul 21, 2026, at 14:12, Ana Pesic <ana.pesic03@gmail.com> wrote:
+>
+> ﻿<!DOCTYPE html>
