@@ -1,44 +1,72 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background: #faf7f2;
     color: #2d2926;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: Georgia, serif;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
 
-nav {
-    padding: 30px 8%;
+/* HEADER */
+
+header {
+    background: #000;
+    color: white;
+    padding: 25px 60px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
-.logo {
-    font-family: Georgia, serif;
-    font-size: 28px;
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 35px;
+    flex: 1;
 }
 
-nav a {
+.nav-right {
+    justify-content: flex-start;
+}
+
+.nav-left {
+    justify-content: flex-end;
+}
+
+header a {
+    color: white;
     text-decoration: none;
-    color: #2d2926;
-    margin-left: 25px;
-    font-size: 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
+
+
+.logo img {
+    height: 75px;
+    width: auto;
+    margin: 0 50px;
+}
+
+
+/* HERO */
 
 .hero {
     height: 90vh;
+
     background-image:
     linear-gradient(
     rgba(0,0,0,0.35),
     rgba(0,0,0,0.35)
     ),
-    url("https://images.unsplash.com/photo-1533105079780-92b9be482077");
+    url("images/hero.jpg");
 
     background-size: cover;
     background-position: center;
@@ -46,47 +74,62 @@ nav a {
     display:flex;
     align-items:center;
     justify-content:center;
-    text-align:center;
 
+    text-align:center;
     color:white;
 }
 
+
 .hero h1 {
-    font-size:70px;
-    max-width:900px;
+    font-family:"Cormorant Garamond", serif;
+    font-size:80px;
+    font-weight:400;
+    margin-bottom:20px;
 }
 
+
 .hero p {
-    font-size:22px;
-    max-width:650px;
-    margin:auto;
+    font-size:20px;
+    letter-spacing:1px;
 }
+
 
 .button {
     display:inline-block;
     margin-top:35px;
-    padding:16px 40px;
-    background:#faf7f2;
-    color:#2d2926;
+    padding:15px 40px;
+
+    background:white;
+    color:black;
+
     text-decoration:none;
+    letter-spacing:2px;
+    font-size:13px;
 }
 
+
+/* SECTIONS */
+
 .section {
-    padding:100px 10%;
+    padding:100px 12%;
     text-align:center;
 }
 
+
 .section h2 {
-    font-size:45px;
+
+    font-family:"Cormorant Garamond", serif;
+    font-size:55px;
+    font-weight:400;
+
 }
+
 
 .section p {
+
     max-width:750px;
     margin:auto;
-    line-height:1.8;
-    font-size:18px;
-}
+    line-height:2;
+    font-size:17px;
 
-> On Jul 21, 2026, at 14:12, Ana Pesic <ana.pesic03@gmail.com> wrote:
->
-> ﻿<!DOCTYPE html>
+}
